@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.012799">
+    <testcase classname="" name="_2" time="0.010813">
+        <failure message="java.io.FileNotFoundException: .\PropertyFiles\Environment.properties (The system cannot find the file specified)&#13;&#10;&#9;at java.base/java.io.FileInputStream.open0(Native Method)&#13;&#10;&#9;at java.base/java.io.FileInputStream.open(FileInputStream.java:213)&#13;&#10;&#9;at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:152)&#13;&#10;&#9;at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:106)&#13;&#10;&#9;at commonFunctions.FunctionLibrary.startBrowser(FunctionLibrary.java:32)&#13;&#10;&#9;at stepDefination.ERPSteps.launch_browser_as(ERPSteps.java:14)&#13;&#10;&#9;at ✽.Launch browser as(file:FeatureFiles/Suppiler.feature:7)&#13;&#10;"><![CDATA[Given Launch browser as.....................................................failed
+When launch url.............................................................skipped
+When wait for username with "name" and "username" and "10"..................skipped
+When Enter user name with "name" and "username" and "admin".................skipped
+When Enter password with "xpath"  and "//input[@id='password']" and "master".skipped
+When click login button with "xpath" and "//button[@id='btnsubmit']"........skipped
+When wait for Supplier link with "xpath" and "(//a[contains(text(),'Suppliers')])[2]" and "10".skipped
+When click Supplier link with "xpath" and "(//a[contains(text(),'Suppliers')])[2]".skipped
+When Wait for AddIcon with "xpath" and "(//span[@data-caption='Add'])[1]" and "10".skipped
+When Click Addicon button with "xpath" and "(//span[@data-caption='Add'])[1]".skipped
+When wait for supplier number with "name" and "x_Supplier_Number" and "10"..skipped
+When Capture Supplier number with "name" and "x_Supplier_Number"............skipped
+When Enter in "Testing1555" with "name" and "x_Supplier_Name"...............skipped
+When Enter in "Ameerpet1" with "xpath" and "//*[@id='x_Address']"...........skipped
+When Enter in "Hydearbad" with "xpath" and "//*[@id='x_City']"..............skipped
+When Enter in "India" with "xpath" and "//*[@id='x_Country']"...............skipped
+When Enter in "Qedgetech1" with "xpath" and "//*[@id='x_Contact_Person']"...skipped
+When Enter in "6401648204" with "xpath" and "//*[@id='x_Phone_Number']".....skipped
+When Enter in "test@gmail.com" with "xpath" and "//*[@id='x__Email']".......skipped
+When Enter in "9482759385" with "xpath" and "//*[@id='x_Mobile_Number']"....skipped
+When Enter in "iam a new Supplier" with "xpath" and "//*[@id='x_Notes']"....skipped
+When Click Add button with "id" and "btnAction".............................skipped
+When wait for ConfirmOk button with "xpath" and "//button[normalize-space()='OK!']" and "10".skipped
+When click Confirm ok button with "xpath" and "//button[normalize-space()='OK!']".skipped
+When Wait for Alert ok button with "xpath" and "(//button[starts-with(text(),'OK')])[6]" and "10".skipped
+When Click Alert ok button with "xpath" and "(//button[starts-with(text(),'OK')])[6]".skipped
+When Verify SupplierNumber..................................................skipped
+When Click Logout link with "xpath" and "(//a[starts-with(text(),' Logout')])[2]".skipped
+When close browser..........................................................skipped
+
+StackTrace:
+java.io.FileNotFoundException: .\PropertyFiles\Environment.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at commonFunctions.FunctionLibrary.startBrowser(FunctionLibrary.java:32)
+	at stepDefination.ERPSteps.launch_browser_as(ERPSteps.java:14)
+	at ✽.Launch browser as(file:FeatureFiles/Suppiler.feature:7)
+]]></failure>
+    </testcase>
+    <testcase classname="" name="_3" time="0.001986">
+        <failure message="java.io.FileNotFoundException: .\PropertyFiles\Environment.properties (The system cannot find the file specified)&#13;&#10;&#9;at java.base/java.io.FileInputStream.open0(Native Method)&#13;&#10;&#9;at java.base/java.io.FileInputStream.open(FileInputStream.java:213)&#13;&#10;&#9;at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:152)&#13;&#10;&#9;at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:106)&#13;&#10;&#9;at commonFunctions.FunctionLibrary.startBrowser(FunctionLibrary.java:32)&#13;&#10;&#9;at stepDefination.ERPSteps.launch_browser_as(ERPSteps.java:14)&#13;&#10;&#9;at ✽.Launch browser as(file:FeatureFiles/Suppiler.feature:7)&#13;&#10;"><![CDATA[Given Launch browser as.....................................................failed
+When launch url.............................................................skipped
+When wait for username with "name" and "username" and "10"..................skipped
+When Enter user name with "name" and "username" and "admin".................skipped
+When Enter password with "xpath"  and "//input[@id='password']" and "master".skipped
+When click login button with "xpath" and "//button[@id='btnsubmit']"........skipped
+When wait for Supplier link with "xpath" and "(//a[contains(text(),'Suppliers')])[2]" and "10".skipped
+When click Supplier link with "xpath" and "(//a[contains(text(),'Suppliers')])[2]".skipped
+When Wait for AddIcon with "xpath" and "(//span[@data-caption='Add'])[1]" and "10".skipped
+When Click Addicon button with "xpath" and "(//span[@data-caption='Add'])[1]".skipped
+When wait for supplier number with "name" and "x_Supplier_Number" and "10"..skipped
+When Capture Supplier number with "name" and "x_Supplier_Number"............skipped
+When Enter in "Testing4888" with "name" and "x_Supplier_Name"...............skipped
+When Enter in "Ameerpet15" with "xpath" and "//*[@id='x_Address']"..........skipped
+When Enter in "Hydearbad" with "xpath" and "//*[@id='x_City']"..............skipped
+When Enter in "India" with "xpath" and "//*[@id='x_Country']"...............skipped
+When Enter in "Qedgetech5" with "xpath" and "//*[@id='x_Contact_Person']"...skipped
+When Enter in "7591648294" with "xpath" and "//*[@id='x_Phone_Number']".....skipped
+When Enter in "test@gmail.com" with "xpath" and "//*[@id='x__Email']".......skipped
+When Enter in "9439154128" with "xpath" and "//*[@id='x_Mobile_Number']"....skipped
+When Enter in "iam a new Supplier" with "xpath" and "//*[@id='x_Notes']"....skipped
+When Click Add button with "id" and "btnAction".............................skipped
+When wait for ConfirmOk button with "xpath" and "//button[normalize-space()='OK!']" and "10".skipped
+When click Confirm ok button with "xpath" and "//button[normalize-space()='OK!']".skipped
+When Wait for Alert ok button with "xpath" and "(//button[starts-with(text(),'OK')])[6]" and "10".skipped
+When Click Alert ok button with "xpath" and "(//button[starts-with(text(),'OK')])[6]".skipped
+When Verify SupplierNumber..................................................skipped
+When Click Logout link with "xpath" and "(//a[starts-with(text(),' Logout')])[2]".skipped
+When close browser..........................................................skipped
+
+StackTrace:
+java.io.FileNotFoundException: .\PropertyFiles\Environment.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at commonFunctions.FunctionLibrary.startBrowser(FunctionLibrary.java:32)
+	at stepDefination.ERPSteps.launch_browser_as(ERPSteps.java:14)
+	at ✽.Launch browser as(file:FeatureFiles/Suppiler.feature:7)
+]]></failure>
+    </testcase>
+</testsuite>
